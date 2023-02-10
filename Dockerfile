@@ -1,3 +1,5 @@
+# Author Justin Wong
+
 FROM rocker/rstudio:4.1.3 
 
 RUN Rscript -e "install.packages('remotes')"
